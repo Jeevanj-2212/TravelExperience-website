@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+    background-color: #d7ba89;
+}
+nav{
+    background: #462255;
+    height: 80px;
+    width: 100%;
+    
+}
+.Home{
+    transition: 1s ease;
+}
+ .Home:hover {
+    border-radius:50%;
+    transition: 1s ease;
+    }
+.imm2{
+    transition: 1s ease;
+}
+.imm2:hover{
+    -webkit-filter: blur(20px);
+transition: 2s ease;
+}
+label.head{
+    color: gold;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; 
+    
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: gold;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;   
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; 
+}
+a.active,a:hover{
+    background: #52534f8f;
+    transition: .5s;
+}
+.hh{
+    font-size: 20px;
+    color: #0504aa;
+}
+.pvv{
+    font-size: 20px;
+}
+.dtt{
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+.mp{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 1s ease;
+}
+.mp:hover{
+    -webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+transition: 1s ease;
+}
+h1{
+    color: #333;
+    margin-bottom: 60px;
+    text-align: center;
+    /*text-transform: uppercase;*/
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-shadow: 2px 2px 5px #462255;
+}
+iframe{
+    width: 50%;
+    height: 500px;
+    
+}
+.blue{
+    color: #0082e6;
+}
+.star{
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    align-content: center;
+}
+dd{
+    color: #0504aa;
+}
+.imm{
+    filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 1s ease;
+}
+ .imm:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
+    .vv {
+        transition: 1s ease;
+        }
+        
+        .vv:hover {
+        border-radius:50%;
+        transition: 1s ease;
+        }
